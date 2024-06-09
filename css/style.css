@@ -1,0 +1,60 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+.top-bar{
+	height: 60px;line-height: 60px
+}
+.top-bar a{
+	color: white
+}
+.top-bar a:hover{
+	 color: green
+}
+.navbar .navbar-nav .navbar-item .nav-link{
+	padding:10px 20px
+}
+.navbar .navbar-nav .navbar-item .nav-link:hover{
+	color: #5B3615
+}
+.navbar .navbar-nav .navbar-item .dropdown-menu{
+	background-color: #147C34;padding-top: 0;padding-bottom:0
+}
+.navbar .navbar-nav .navbar-item .dropdown-menu .dropdown-item{
+	color:white
+}
+.navbar .navbar-nav .navbar-item .dropdown-menu li{
+	borderr-bottom: 1px solid white
+}
+.navbar .navbar-nav .navbar-item .dropdown-menu .dropdown-item:hover{
+	background-color:#FFC113
+}
+main{
+	min-height: 500px
+}
+.gach-chan{
+	border-bottom: 2px solid #7F552E
+}
+footer .navbar .navbar-nav .navbar-item .nav-link:hover{
+	color:#7F552E
+}
+.bottom-bar{
+	height:60px;line-height:45px;background-color:#7D612C
+}
+.hinh{
+	width: 100%;position:relative
+}
+#cam-nhan .nd{
+	padding:10px 30px;display: flex; flex-direction:column;justify-content: center; align-items: center
+}
+#cam-nhan .nd img{
+	width: 80px; height: 80px
+}
+#cn .owl-nav { position:absolute; left:0px; top:20%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #7D612C
+}
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#7D612C;
+      text-decoration: none; }
